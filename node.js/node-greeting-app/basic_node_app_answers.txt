@@ -1,0 +1,11 @@
+>What is a Node module?
+
+A: A node module is a file that holds a function(s) for the creation of one functionality.  Helps with separations of concerns.
+
+>What is the main difference between exports and module.exports?
+
+A: `module.exports` returns an object when `require(fileName)` is used, while `exports` is a reference of `module.exports`.
+
+>Why is using exports recommended?
+
+A: It cannot reassign `module.exports`.
